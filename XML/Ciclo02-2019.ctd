@@ -1,0 +1,99 @@
+<?xml version="1.0" ?>
+<cherrytree>
+	<node custom_icon_id="0" foreground="#0ecd0e" is_bold="True" name="Sistemas Operativos" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1565790020.68" ts_lastsave="1565791881.17" unique_id="1">
+		<rich_text></rich_text>
+		<node custom_icon_id="0" foreground="" is_bold="True" name="Introducción" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1565790143.0" ts_lastsave="1565792666.77" unique_id="2">
+			<rich_text>• Firmware
+• Hardware
+• Sistema Operativo
+   ◇ ¿Qué es un sistema operativo?
+      ▪ Es un software con diversas funciones
+      ▪ SImplifica el uso de una computadora
+      ▪ Administrar y usar eficientemente los recursos
+      ▪ Proporcionar servicios para los demás programas
+      ▪ Brindar una interfaz para la ejecución de órdenes
+
+Llamadas al sistema -&gt; Conjunto de funciones/operaciones que ya están resueltas y podemos ejecutar
+</rich_text>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Variables en linux" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1565790442.26" ts_lastsave="1565790811.47" unique_id="4">
+				<rich_text>Las variables van en mayuscula, con un prefijo de “$”
+Ejemplo:
+</rich_text>
+				<rich_text justification="left"></rich_text>
+				<rich_text>
+
+Manual -&gt; $MANPATH</rich_text>
+				<codebox char_offset="63" frame_height="100" frame_width="700" highlight_brackets="True" show_line_numbers="False" syntax_highlighting="sh" width_in_pixels="True">$PATH
+echo $PATH
+</codebox>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="Capas de un SO" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1565790759.41" ts_lastsave="1565791304.25" unique_id="3">
+				<rich_text>• Intérprete de comandos
+   ◇ Permite interacción con el sistema
+• Llamdas al sistema
+   ◇ Ofrece una especie de API
+   ◇ Extiende la funcionalidad del sistema
+• Núclo o kernel
+   ◇ Es la más cercana al hardware
+   ◇ Gestiona los recursos del sistema
+ 
+ Kernel es el que realiza todas las tareas del sistema operativo, por eso es la más cercaa al hardware
+    Es el que realiza la asignación de memoria
+    
+glibc no es parte del kernel pero si esta bien amarrada a este.
+
+</rich_text>
+				<rich_text justification="left"></rich_text>
+				<rich_text>
+
+</rich_text>
+				<table char_offset="473" col_max="820" col_min="800">
+					<row>
+						<cell>Programas de usuario</cell>
+					</row>
+					<row>
+						<cell>Llamadas al sistema</cell>
+					</row>
+					<row>
+						<cell>Kernel</cell>
+					</row>
+					<row>
+						<cell>Hardware (Incluye el firmware)</cell>
+					</row>
+					<row>
+						<cell>Capas de un SO</cell>
+					</row>
+				</table>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="El SO como gestor de recursos" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1565791772.28" ts_lastsave="1565791856.76" unique_id="5">
+				<rich_text>• En la computadora deben convivir múltiples usuarios ejecutando diversos programas de forma simultánea
+   ◇ Asignación/recuperación de recursos
+      ▪ Compartir recursos en el tiempo y en el espacio
+      ▪ Recursos físicos y lógicos
+   ◇ Protección entre usuarios y aplicaciones
+      ▪ Evitar interferencia
+      ▪ Confidencialidad
+   ◇ Monitorear y registrar el uso de los recursos
+      ▪ Por usuario y recursos </rich_text>
+			</node>
+			<node custom_icon_id="0" foreground="" is_bold="False" name="El SO como máquina extendida" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1565792666.77" ts_lastsave="1565792755.6" unique_id="7">
+				<rich_text>• Las llamadas al sistema permiten ejecutar ciertas operaciones de forma fácil y segura
+• Básicamente existen 4 tipos de llamadas al sistema
+   ◇ Ejecución de programas
+      ▪ Iniciar, detener y cambiar características de los procesos
+   ◇ Órdenes de E/S
+   ◇ Manipulación de archivos
+   ◇ Gestión de errores
+      ▪ Errores generados por el uso de hardware</rich_text>
+			</node>
+		</node>
+		<node custom_icon_id="0" foreground="" is_bold="True" name="Extras (Comandos)" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1565791881.18" ts_lastsave="1565791998.81" unique_id="6">
+			<rich_text justification="left"></rich_text>
+			<rich_text>
+</rich_text>
+			<codebox char_offset="0" frame_height="100" frame_width="700" highlight_brackets="True" show_line_numbers="True" syntax_highlighting="sh" width_in_pixels="True">man #Abre el manual del comando/función que se ha pasado como parametro
+which #Imprime el directorio del servicio/aplicación que se desea
+</codebox>
+		</node>
+	</node>
+</cherrytree>
